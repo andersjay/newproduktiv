@@ -299,7 +299,7 @@ export function Anxiety() {
               </Box>
               <Box h="100px">
                 <Text fontSize={{ base: "lg", lg: "2xl" }} align="center">
-                  Aula 2 - O que é Workspace e como funcionam as páginas
+                  Aula 2 - Como funciona o Notion
                 </Text>
               </Box>
             </Flex>
@@ -310,7 +310,7 @@ export function Anxiety() {
               </Box>
               <Box h="100px">
                 <Text fontSize={{ base: "lg", lg: "2xl" }} align="center">
-                  Aula 3 - Colocando os Templates
+                  Aula 3 - Adicionando os Templates
                 </Text>
               </Box>
             </Flex>
