@@ -1,23 +1,16 @@
-import { Header } from './components/Header'
-import { CTA } from './components/CTA'
-import { Anxiety } from './components/Anxiety'
-import { Who } from './components/Who'
-import { ST } from './components/ST'
-import { ST2 } from './components/ST2'
-import {Offer} from './components/Offer'
-import { Faq } from './components/Faq'
+import { Router, Link } from "@reach/router";
+import { SalesPage } from "./pages/SalesPage";
+import { Upsell1 } from "./pages/Upsell1";
 
 export function App(props) {
   return (
-    <>
-      <Header/>
-      <CTA/>
-      <ST/>
-      <ST2/>
-      <Anxiety/>
-      <Who/>
-      <Offer/>
-      <Faq/>
-    </>
-  )
+    <Router>
+      <SalesPage path="/" />
+
+        
+      <Upsell1 path="/upsell1" />
+    </Router>
+
+    
+  );
 }

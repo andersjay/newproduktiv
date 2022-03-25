@@ -1,4 +1,4 @@
-import {Image, Box, Center, Text, Container} from "@chakra-ui/react";
+import {Image, Box, Center, Text, Container, Flex} from "@chakra-ui/react";
 
 import LogoImg from "../../assets/logo.png";
 import Wave from "react-wavify";
@@ -17,8 +17,8 @@ const WaveContainer = styled.div`
 
 export function Header() {
   return (
-    <Container maxW="90%">
-      <Box bg="transparent" w="100%" h={{base: '500px', md: "450px", lg:"600px"}}>
+    <Container maxW="1220px">
+      <Box bg="transparent" w="100%" h={{base: '330', md: "450px", lg:"330"}}>
        <WaveContainer level={85}>
         <Wave
           fill="#3A555F"
@@ -32,14 +32,19 @@ export function Header() {
         />
       </WaveContainer>
         
-      <Center>
-        <Image src={LogoImg} maxWidth={{base: 350, md:250, lg:350}} maxH={{base: 200, md: 100, lg:250}} />
-      </Center>
+      <Flex 
 
-        <Center >
-          <Text as="h1" fontSize={{base:25,lg:55}} textAlign="center" fontWeight="bold" color="#FFF"> Estima-se que 90,8% das pessoas procrastinam por desorganização, ansiedade, baixo autocontrole, distração e perfeccionismo… </Text>
-        </Center>
-      
+        align="center"
+        justify="center"
+        direction="column"
+        gap="20px"
+        pt={10}
+        >
+        <Image src={LogoImg} maxWidth={{base: 150, md:250, lg:200}} maxH={{base: 200, md: 100, lg:250}} />
+        <Text as="h1"fontSize={{base:19,lg:'45px'}} textAlign="center" fontWeight="bold" color="#FFF"> Estima-se que 90,8% das pessoas procrastinam por desorganização, ansiedade, baixo autocontrole, distração e perfeccionismo… </Text>
+      </Flex>
+
+
     </Box>
     </Container>
   );

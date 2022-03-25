@@ -12,11 +12,20 @@ const colors = {
     700: '#2a69ac',
   },
   bg: '#3A555F',
-  main:'#1D2021'
-  
+  main:'#1D2021',
+
 }
 
-const theme = extendTheme({ colors })
+const styles = {
+  global:(props)=>({
+    'html, body':{
+      overflowX: 'hidden',
+    }
+  })
+}
+
+
+const theme = extendTheme({ colors, styles })
 
 
 ReactDOM.render(
