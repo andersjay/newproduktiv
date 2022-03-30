@@ -18,7 +18,7 @@ export function Button(props){
       href={props.href}
       variant={props.variant}
       id={props.id}
-      border="2px solid black"
+      border="1px solid #222"
       
     >
       {props.children}
