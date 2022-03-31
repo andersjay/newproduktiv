@@ -15,7 +15,9 @@ const WaveContainer = styled.div`
   transform: rotate(180deg);
 `;
 
+
 export function Header() {
+
   return (
     <Container maxW="1220px">
       <Box
@@ -62,7 +64,7 @@ export function Header() {
             >
               "Método P"
             </span> 
-            que eu uso para ser mais produtivo(a), controlar ansiedade, realizar sonhos e procrastinar menos com o Notion
+            que eu uso para ser mais produtivo(a), controlar ansiedade, realizar sonhos e procrastinar menos através do Notion
           </Text>
         </Flex>
       </Box>
