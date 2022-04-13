@@ -6,6 +6,7 @@ import { Anxiety } from "../components/Anxiety";
 import { Who } from "../components/Who";
 import { Offer } from "../components/Offer";
 import { Faq } from "../components/Faq";
+import { End } from "../components/End";
 
 export function SalesPage() {
   return (
@@ -17,6 +18,8 @@ export function SalesPage() {
       <Anxiety/>
       <Who/>
       <Offer/>
+      <End/>
+
       <Faq/>
     </>
   );
