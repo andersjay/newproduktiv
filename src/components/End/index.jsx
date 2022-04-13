@@ -34,7 +34,7 @@ export function End() {
         <Text fontSize={{ base: "lg", lg: "2xl" }}>Ou</Text>
 
         <Text fontSize={{ base: "lg", lg: "2xl" }} pb={5}>
-        A segunda escolha, que é você garantir o <b>Método P</b> por menos de <b>R$3,25 por dia</b> e ter acesso ao melhor conteúdo de organização, produtividade e gerenciamento de tarefas, economizando o tempo e o dinheiro que você perderia tentando encontrar o melhor caminho. Espero que você faça a melhor escolha!
+        A segunda escolha, que é você garantir o <b>Método P</b> por menos de <b>R$0,27 por dia</b> e ter acesso ao melhor conteúdo de organização, produtividade e gerenciamento de tarefas, economizando o tempo e o dinheiro que você perderia tentando encontrar o melhor caminho. Espero que você faça a melhor escolha!
         </Text>
         <Button
           color="white"
